@@ -1,0 +1,33 @@
+---
+title: "Jie's Resume Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+
+# Hello
+
+### A Bit About Me
+
+I'm Jie Liu. Now,I am a graduate student major in Biostatistics in Mailman school \
+of Public Health.I will graduate in May 2022\ from Columbia University. I hope I can\
+find a position in areas of  pharmacy or data\ analysis.\
+
+<img src="images/1.jpg" style="width:40%" style="height:20%">
+
+
+
+
+
+
+
+
+
+####  Clink below button to see resume
+
+[Resume](about.html)
+
+
+

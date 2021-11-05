@@ -1,0 +1,70 @@
+---
+title: "Resuem"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+
+### EDUCATION  
+
+##### Columbia University Mailman school of Public Health                            09/2021-Present   
+Major: Biostatistics                   Degree: Master of Science (Expected)                                                                       		
+Relevant course: Data Science, Biostatistical Method, Probability, Epidemiology
+		
+##### Nanjing Agricultural University	09/2016-07/2020		
+Major: Horticulture	Degree: Bachelor of Science (Expected)			
+Honors: Second Prize for School Merit Students at Nanjing Agricultural University   10/2018
+Third Prize in National English Contest for College Students   05/2018	
+
+##### National Taiwan University (Exchange Student)	                                            09/2019-01/2020 
+
+### WORK EXPERIENCE                                                             
+##### Zero Code Gene Technology Company                                                   06/2020-10/2021
+
+ Supervisor: Shujin Yin, senior manager in Data Analysis Department 
+ 1. Manipulated and cleaned data on wheat and rice using Python and constructed multiple plots for visualization using R
+in order to help supervisor finish data analysis \
+ 2. Builded a Mathematical mode to filter sequence-tagged sites in rice gene using \ Python
+ 3. Collaborated with manager to write a data-analysis report
+
+##### New Oriental Education & Technology Group                                             11/2020-08/2021                                                      
+ Supervisor: Yu Tao, Headmaster of Hongyang Campus in Jiangning district,Nanjing
+  Tutored Chinese high-school students of one-to-one Mathematics courses for more than 24 hours per week
+	Conducted Parent-teacher Meetings to introduce personalized study plans and discuss students’ learning performance in
+order to help parents better comprehend their children’s learning progress 	
+
+### RESEARCH EXPERIENCE                                                                    		
+##### Summer School of Toxicology at University of Hradec Králové	07/2019-08/2019	
+
+  Supervisor: Kamil Musilek, Dean of Chemistry Department, University of Hradec Králové \
+  Accomplished several toxicological experiments under the supervisor’s expert guidance, including precipitation, desalination and concentration of protein, preparation and chromatography of aspirin, and determination of iron ion in drinking water \
+  Measured and recorded the PH of the local drinking water and used Excel to draw the broken line diagram of the test tube and PH value \
+  Analyzed the experimental data with SPSS to identify the source of error
+
+##### Identification and Analysis of Woodland Strawberry Replication Genes	05/2018-03/2019	
+
+  Supervisor: Yi Li, Professor, University of Connecticut; Jing Ding, Associate Professor, Nanjing Agricultural University \
+  1. Used MCScanX to classify all annotated genes of woodland strawberry genome v4.0 by the replication mode \
+  2. Utilized Excel to draw the histogram of the number of genes contained in the tandem replication genes pairs \
+  3. Drew the distribution table of tandem replication genes on chromosomes in Excel \
+  4. Classified the forest strawberry according to gene functions and applied SPSS to draw pie charts \
+  5. Detected the expression by Real-time polymerase chain reaction to compare and analyze the differentiation patterns of gene expression levels of tandem replicators produced at different periods
+
+### ACTIVITY	
+
+##### The University of California, San Diego (Summer School)	02/2018-03/2018	
+
+### SKILLS                                                        		
+##### R, Python, SPSS, SAS
+
+
+		
+
+
+
+
+
+ 
+
