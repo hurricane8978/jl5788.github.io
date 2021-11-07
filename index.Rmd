@@ -18,13 +18,6 @@ find a position in areas of  pharmacy or data\ analysis.\
 <img src="images/1.jpg" style="width:40%" style="height:20%">
 
 
-
-
-
-
-
-
-
 # Resume
 
 [Resume](about.html)

@@ -1,0 +1,64 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(plotly)
+library("p8105.datasets")
+
+```
+
+
+```{r}
+data("ny_noaa")
+noaa = ny_noaa %>% 
+  drop_na() %>% 
+  tail(n=100000) %>% 
+  filter(id != "USW00014748") %>% 
+  mutate(tmin = as.numeric(tmin),
+         tmax = as.numeric(tmax) )%>% 
+  mutate(
+    tmin = tmin / 10,
+    tmax = tmax / 10) %>%
+  select(id, everything())
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+noaa %>% 
+  plot_ly(
+    x = ~tmin, y = ~tmax,type = "scatter",mode = "markers",color = ~prcp, alpha = .5
+  )
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+noaa %>% 
+  mutate(id = fct_reorder(id, prcp)) %>% 
+  plot_ly(y = ~prcp, color = ~id, type = "box", colors = "viridis")
+```
+
+### Chart C
+
+```{r}
+noaa %>% 
+  count(id) %>% 
+  mutate(id = fct_reorder(id, n)) %>% 
+  plot_ly(x = ~id, y = ~n, color = ~id, type = "bar", colors = "viridis")
+```
+
